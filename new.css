@@ -1,0 +1,157 @@
+h1 {
+   font-size: 80px;
+   margin: 30px auto;
+   text-align: center;
+   margin-left: auto;
+   font-family: 'Thasadith', sans-serif;
+   color: #bbb;
+}
+#intro {
+    margin: 5px auto;
+    width: 400px;
+    height: 200px;
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+    text-align: center;
+    position: relative;
+}
+
+#intro span{
+    font-size: 20px;
+    color: gray;
+}
+.btn {
+    text-align: center;
+    margin: 20px auto;
+    width: 100px;
+    border: 1px solid gray;
+    font-size: 30px;
+    font-family: 'Thasadith', sans-serif;
+    font-weight: normal;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#btn1:hover{
+    background-color: lightgray;
+    font-weight: 600;
+}
+#btn2{
+    display: none;
+    width: 150px;
+    position: relative;
+    margin-top: 50px;
+}
+#btn2:hover{
+    background-color: lightgray;
+    font-weight: 600;
+}
+#btn3:hover{
+    background-color: lightgray;
+    font-weight: 600;
+}
+h2{
+    font-family: 'Thasadith', sans-serif;
+    color: #bbb;
+    text-align: center;
+    display: none;
+    margin: 60px auto;
+    position: relative;
+}
+.vimg {
+    
+    border-radius: 25%;
+    width: 150px;
+    opacity: 0.5;
+    margin-left: 10px;
+    display: none;
+}
+#imgcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: flex-start;
+    position: relative;
+}
+.vimg:hover{
+    opacity: 1;
+}
+#puzzlecont{
+    width: 460px;
+    height: 460px;
+    border: 2px solid gray;
+    position: relative;
+    display: none;
+    text-align: center;
+    background-color: #EEEFFD;
+    justify-content: center;
+    align-items: center;
+}
+
+#puzzlecont > div{
+    float: left;
+    width: 148px;
+    height: 148px;
+    position: absolute;
+    border-radius: 5%;
+}
+
+#selectdiv{
+    display: none;
+    position: relative;
+}
+div span{
+    font-family: 'Thasadith', sans-serif;
+    color: black;
+    font-weight: bold;
+}
+div #btn3{
+    display: none;
+}
+
+#congrat{
+    font-family: 'Thasadith', sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 100px;
+    display: none;
+    position: absolute;
+    top: 150px;
+    left: 400px;
+}
+#congrat2{
+    font-family: 'Thasadith', sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 60px;
+    display: none;
+    position: absolute;
+    top: 250px;
+    left: 400px;
+}
+
+#f5{
+    font-family: 'Thasadith', sans-serif;
+    color: #333333;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 460px;
+    left: 700px;
+    display: none;
+}
+#counter{
+    font-family: 'Thasadith', sans-serif;
+    color: #333333;
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    top: 480px;
+    left: 710px;
+    display: none;
+}
+
+.shadow{
+    -webkit-box-shadow: 0px 25px 20px -3px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 25px 20px -3px rgba(0,0,0,0.4);
+    box-shadow: 0px 25px 20px -3px rgba(0,0,0,0.4);
+}
